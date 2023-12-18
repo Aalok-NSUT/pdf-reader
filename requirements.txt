@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+langchain
+unstructured==0.7.12
+unstructured[pdf]
+openai
+chromadb
+fitz
+tiktoken
