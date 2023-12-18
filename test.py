@@ -1,8 +1,8 @@
 import os
 OPENAI_API_TYPE = "azure"
 OPENAI_API_VERSION = "2023-05-15"
-OPENAI_API_BASE = ""
-OPENAI_API_KEY = ""
+OPENAI_API_BASE = "https://azureopenaiservice-eastus.openai.azure.com/openai"
+OPENAI_API_KEY = "e52a36482c1e413e9d0f501e498f8075"
 DEPLOYMENT_NAME = "pdf-reader"
 
 from dotenv import load_dotenv
