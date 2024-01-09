@@ -61,3 +61,7 @@ if uploadedFile is not None:
 
     # st.write(type(query))
     st.write(output)
+
+
+    if __name__ == '__main__':
+        st.set_option('server.enableCORS', True)
