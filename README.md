@@ -1,1 +1,1 @@
-To run locally, "python -m streamlit run test1.py"
+To run locally, "python -m streamlit run test1.py" in terminal
