@@ -4,19 +4,12 @@ __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
-
-OPENAI_API_TYPE = "azure"
-OPENAI_API_VERSION = "2023-05-15"
-OPENAI_API_BASE = "https://azureopenaiservice-eastus.openai.azure.com/openai"
-OPENAI_API_KEY = "e52a36482c1e413e9d0f501e498f8075"
-DEPLOYMENT_NAME = "pdf-reader"
-
 from dotenv import load_dotenv
 
-os.environ["OPENAI_API_TYPE"] = OPENAI_API_TYPE
-os.environ["OPENAI_API_VERSION"] = OPENAI_API_VERSION
-os.environ["OPENAI_API_BASE"] = OPENAI_API_BASE
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+# os.environ["OPENAI_API_TYPE"] = OPENAI_API_TYPE
+# os.environ["OPENAI_API_VERSION"] = OPENAI_API_VERSION
+# os.environ["OPENAI_API_BASE"] = OPENAI_API_BASE
+# os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 load_dotenv()
 
